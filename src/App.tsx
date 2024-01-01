@@ -1,5 +1,5 @@
 import { useState } from "react"
-import AlertReloded from "./components/AlertReloded"
+import StateManagment from "./state/StateManagment"
 
 const App = () => {
 
@@ -13,11 +13,12 @@ const App = () => {
       {/* <Button onClick={() => console.log("Clicked")}>
         My Button
       </Button> */}
-      <AlertReloded 
+      {/* <AlertReloded 
         handleAlert={() => setAlert(prev => !prev)}
         alert={alert}
         message="This is an alert message"
-      />
+      /> */}
+      <StateManagment />
     </>
   )
 }
