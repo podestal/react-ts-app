@@ -1,5 +1,5 @@
 import { useState } from "react"
-import StateManagment from "./state/StateManagment"
+import Form from "./components/Form"
 
 const App = () => {
 
@@ -18,7 +18,8 @@ const App = () => {
         alert={alert}
         message="This is an alert message"
       /> */}
-      <StateManagment />
+      {/* <StateManagment /> */}
+      <Form />
     </>
   )
 }

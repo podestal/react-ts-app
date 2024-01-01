@@ -15,7 +15,9 @@ const StateManagment = () => {
     ])
 
     const handleFix = (e: MouseEvent) =>  {
-        setBugs(bugs.map(bug => e.target.name == bug.title ? {...bug, fixed: true} : bug))
+        // setBugs(bugs.map(bug => e.target.name == bug.title ? {...bug, fixed: true} : bug))
+        console.log(e)
+        
     }
 
   return (
